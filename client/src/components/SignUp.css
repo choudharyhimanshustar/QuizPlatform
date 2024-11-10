@@ -1,0 +1,32 @@
+.SignUpbtn {
+    width: fit-content;
+    padding: 1%;
+
+    border: none;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 42%
+}
+.SignUpbtn button
+{
+    border: none;
+    background-color: #FFCA5A;
+    margin: 5%;
+    padding: 15%;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
+@media (max-width:768px)
+{
+    .Login
+    {
+        height: fit-content;
+        padding: 5%;
+        position: relative;
+        top:25vh;
+        width:80%;
+        left:5%
+    }
+}

@@ -1,0 +1,52 @@
+.QuizComponent
+{
+    background-color: #555555;
+    width: 80%;
+    border-radius: 1.5rem;
+    padding: 2%;
+    position: relative;
+    left:10%;
+    top:15vh;
+    height: 170vh;
+    color: #FFCA5A;
+    font-weight: bold;
+    text-align:left;
+}
+.SubmitAnswerBtn
+{
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #FFCA5A;
+    position: relative;
+    left:35%;
+    cursor: pointer;
+    margin: 7%;
+    padding: 1%;
+    font-weight: bold;
+    color: #555555;
+}
+
+.LeaderboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.LeaderboardEntry {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.Username {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.Score {
+    font-weight: bold;
+    color: #2E8B57;
+}

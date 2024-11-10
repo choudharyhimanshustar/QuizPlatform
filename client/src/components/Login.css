@@ -1,0 +1,55 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    background-color: #555555;
+    color: #FFCA5A;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1%;
+    width: 50vw;
+    height: 70vh;
+    position: fixed;
+    left: 25%;
+    top:10%
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginForm input {
+    outline: none;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1%;
+    margin:1%
+}
+
+.buttonCSS {
+    width: fit-content;
+    padding: 1%;
+
+    border: none;
+    border-radius: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:35%
+}
+
+.buttonCSS button {
+    border: none;
+    background-color: #FFCA5A;
+    margin: 5%;
+    padding: 15%;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
+@media (max-width:768px)
+{
+    .buttonCSS
+    {
+        left:30%
+    }
+}
